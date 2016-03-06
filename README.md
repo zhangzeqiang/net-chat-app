@@ -4,11 +4,11 @@
 
 ## 截图
 ![截图](https://github.com/zhangzeqiang/net-chat-app/raw/master/ScreenShot/Screenshot_2016-03-06-19-13-34.png)
-![截图](https://github.com/zhangzeqiang/net-chat-app/raw/master/Screenshot/Screenshot_2016-03-06-19-13-48.png)
-![截图](https://github.com/zhangzeqiang/net-chat-app/raw/master/Screenshot/Screenshot_2016-03-06-19-13-59.png)
-![截图](https://github.com/zhangzeqiang/net-chat-app/raw/master/Screenshot/Screenshot_2016-03-06-19-14-01.png)
-![截图](https://github.com/zhangzeqiang/net-chat-app/raw/master/Screenshot/Screenshot_2016-03-06-19-14-31.png)
-![截图](https://github.com/zhangzeqiang/net-chat-app/raw/master/Screenshot/Screenshot_2016-03-06-19-14-41.png)
+![截图](https://github.com/zhangzeqiang/net-chat-app/raw/master/ScreenShot/Screenshot_2016-03-06-19-13-48.png)
+![截图](https://github.com/zhangzeqiang/net-chat-app/raw/master/ScreenShot/Screenshot_2016-03-06-19-13-59.png)
+![截图](https://github.com/zhangzeqiang/net-chat-app/raw/master/ScreenShot/Screenshot_2016-03-06-19-14-01.png)
+![截图](https://github.com/zhangzeqiang/net-chat-app/raw/master/ScreenShot/Screenshot_2016-03-06-19-14-31.png)
+![截图](https://github.com/zhangzeqiang/net-chat-app/raw/master/ScreenShot/Screenshot_2016-03-06-19-14-41.png)
 
 ## 开源协议
 ```
