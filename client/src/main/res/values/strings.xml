@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">联系客服</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_user_info_modify">修改用户信息</string>
+</resources>

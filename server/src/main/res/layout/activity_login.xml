@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fafbfc"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="#1456d2"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_regist"
+                android:layout_width="65.83dp"
+                android:layout_height="30.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="#4177dc"
+                android:text="@string/user_regist"
+                android:onClick="onLoginClick"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="50dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="#ffffff"
+                android:textSize="20dip" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="65.83dp"
+                android:layout_height="30.5dp"
+                android:layout_marginRight="10dp"
+                android:background="#4177dc"
+                android:onClick="onLoginClick"
+                android:text="@string/user_login"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relay_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/relay_account"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:background="#f9f9fa"
+                android:clickable="true"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="@string/user_name"
+                    android:textColor="#000"
+                    android:textSize="17sp" />
+
+                <EditText
+                    android:id="@+id/edt_account"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dip"
+                    android:layout_toRightOf="@id/tv_account"
+                    android:background="@null"
+                    android:hint="@string/user_name"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relay_pw"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relay_account"
+                android:background="#fbfbfc"
+                android:clickable="true"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_pw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="@string/user_pw"
+                    android:textColor="#000"
+                    android:textSize="17sp" />
+
+                <EditText
+                    android:id="@+id/edt_pw"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dip"
+                    android:layout_toRightOf="@id/tv_pw"
+                    android:background="@null"
+                    android:hint="@string/user_pw"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:layout_marginLeft="15dip"
+            android:onClick="onLoginClick"
+            android:text="@string/user_forget"
+            android:textColor="#29981A" />
+
+    </LinearLayout>

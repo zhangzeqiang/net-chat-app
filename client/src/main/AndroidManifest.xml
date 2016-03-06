@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shuanghua.chat.client">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".SHApplication"
+        >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="org.kymjs.chat.ChatActivity" />
+        <activity android:name=".activity.WSHBaseActivity" />
+        <activity
+            android:name=".activity.UserInfoModifyActivity"
+            android:label="@string/title_activity_user_info_modify"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <service
+            android:name="com.shuanghua.chat.common.service.TCPService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.shuanghua.service.tcpservice"></action>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.shuanghua.chat.common.receiver.TCPReceiver"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action
+                    android:name="com.shuanghua.receiver.tcpreceiver"
+                    ></action>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
