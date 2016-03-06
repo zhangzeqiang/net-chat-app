@@ -1,6 +1,6 @@
 ﻿## 参考框架
 
-	https://github.com/kymjs
+![EmojiChat](https://github.com/kymjs/EmojiChat)
 
 ## 截图
 ![截图](https://github.com/zhangzeqiang/net-chat-app/raw/master/ScreenShot/Screenshot_2016-03-06-19-13-34.png)
